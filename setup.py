@@ -32,6 +32,7 @@ setup(
     author_email='vlebourl@gmail.com',
     description='pyhoma - Python connect to Tahoma REST API',
     long_description=open('README.rst').read() if exists("README.rst") else "",
+    long_description_content_type="text/x-rst",
     packages=find_packages(),
     keywords='tahoma somfy io covers senors api',
     platforms='any'
