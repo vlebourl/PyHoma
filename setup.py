@@ -25,7 +25,7 @@ def find_version(*file_paths):
 setup(
     name='pyhoma',
     version=find_version('pyhoma', '__init__.py'),
-    url='http://github.com/vlebourl/tahoma-api/',
+    url='http://github.com/vlebourl/PyHoma/',
     license='Apache Software License',
     author='Vincent Le Bourlot',
     install_requires=['requests>=2.0'],
