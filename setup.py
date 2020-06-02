@@ -1,5 +1,5 @@
 """
-Install TahomaApi
+Install pyhoma
 """
 
 from os.path import exists
@@ -23,14 +23,14 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 setup(
-    name='tahoma_api',
-    version=find_version('tahoma_api', '__init__.py'),
-    url='http://github.com/philklei/tahoma-api/',
+    name='pyhoma',
+    version=find_version('pyhoma', '__init__.py'),
+    url='http://github.com/vlebourl/tahoma-api/',
     license='Apache Software License',
-    author='Philip Kleimeyer',
+    author='Vincent Le Bourlot',
     install_requires=['requests>=2.0'],
-    author_email='philip.kleimeyer@gmail.com',
-    description='Tahoma Api - Python connect to Tahoma REST API',
+    author_email='vlebourl@gmail.com',
+    description='pyhoma - Python connect to Tahoma REST API',
     long_description=open('README.rst').read() if exists("README.rst") else "",
     packages=find_packages(),
     keywords='tahoma somfy io covers senors api',
