@@ -1,3 +1,3 @@
-from .pyhoma import PyHoma, Action, Device, Command, ActionGroup, Event, Execution
+from .pyhoma import TahomaApi, Action, Device, Command, ActionGroup, Event, Execution
 
-__version__ = '0.0.18'
+__version__ = '0.0.19'
